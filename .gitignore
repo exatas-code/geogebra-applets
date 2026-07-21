@@ -1,0 +1,25 @@
+# Backup files
+BACKUPS/
+*.xml
+
+# Assets and media
+LOGO/
+*.png
+*.jpg
+*.svg
+
+# Page templates and documents
+PAGINAS/
+*.md
+*.txt
+
+# Auxiliary and temp scripts
+convert_catalog.js
+find_duplicates.py
+script_planilha
+primeiro_comando.md
+applets_add.txt
+
+# Node
+node_modules/
+npm-debug.log

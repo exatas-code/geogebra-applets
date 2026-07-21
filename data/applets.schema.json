@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CatalogoGeoGebraSchema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "titulo",
+      "descricao",
+      "categoria",
+      "nivel",
+      "iframeSrc",
+      "urlOriginal",
+      "autorOriginal",
+      "licenca",
+      "destaque",
+      "tags"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "titulo": {
+        "type": "string",
+        "minLength": 3,
+        "maxLength": 100
+      },
+      "descricao": {
+        "type": "string",
+        "minLength": 10,
+        "maxLength": 300
+      },
+      "categoria": {
+        "type": "string",
+        "enum": [
+          "algebra",
+          "geometria-plana",
+          "geometria-espacial",
+          "geometria-analitica",
+          "calculo",
+          "funcoes",
+          "trigonometria",
+          "estatistica"
+        ]
+      },
+      "nivel": {
+        "type": "string",
+        "enum": ["fundamental", "medio", "superior"]
+      },
+      "iframeSrc": {
+        "type": "string",
+        "format": "uri",
+        "pattern": "^https:\\/\\/www\\.geogebra\\.org\\/material\\/iframe\\/id\\/.*$"
+      },
+      "thumbnailUrl": {
+        "type": ["string", "null"],
+        "format": "uri"
+      },
+      "autorOriginal": {
+        "type": "string",
+        "minLength": 2
+      },
+      "urlOriginal": {
+        "type": "string",
+        "format": "uri",
+        "pattern": "^https:\\/\\/www\\.geogebra\\.org\\/m\\/.*$"
+      },
+      "licenca": {
+        "type": "string"
+      },
+      "destaque": {
+        "type": "boolean"
+      },
+      "tags": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "minItems": 1
+      }
+    }
+  }
+}
