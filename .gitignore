@@ -15,10 +15,12 @@ PAGINAS/
 
 # Auxiliary and temp scripts
 convert_catalog.js
+shrink_template.js
 find_duplicates.py
 script_planilha
 primeiro_comando.md
 applets_add.txt
+applets-catalog.js
 
 # Node
 node_modules/
