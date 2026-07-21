@@ -3100,5 +3100,26 @@
       "visualização",
       "aritmética"
     ]
+  },
+  {
+    "id": "funcoes-trigonometricas",
+    "titulo": "Funções Trigonométricas",
+    "descricao": "Aplicação que permite visualizar a representação gráfica das funções seno, cosseno e tangente a partir do círculo trigonométrico.",
+    "categoria": "trigonometria",
+    "nivel": "medio",
+    "iframeSrc": "https://www.geogebra.org/material/iframe/id/n3yVCrbh/width/900/height/600/border/888888/smb/false/stb/false/stbh/false/ai/true/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false",
+    "thumbnailUrl": null,
+    "autorOriginal": "Alexandre Trocado",
+    "urlOriginal": "https://www.geogebra.org/m/n3yVCrbh",
+    "licenca": "CC BY-SA",
+    "destaque": false,
+    "tags": [
+      "trigonometria",
+      "seno",
+      "cosseno",
+      "tangente",
+      "círculo trigonométrico",
+      "funções"
+    ]
   }
 ]
