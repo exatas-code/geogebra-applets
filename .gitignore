@@ -15,7 +15,6 @@ PAGINAS/
 
 # Allow markdown guides and docs assets
 !README.md
-!COMO_ADICIONAR_APPLETS.md
 !SUGESTOES.md
 !docs/
 !docs/*.png
