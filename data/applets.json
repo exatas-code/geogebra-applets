@@ -3080,5 +3080,25 @@
       "cálculo",
       "área"
     ]
+  },
+  {
+    "id": "multiplicacao-de-fracoes",
+    "titulo": "Multiplicação de frações",
+    "descricao": "Explore de forma visual e interativa como funciona o produto entre duas frações utilizando a subdivisão de áreas.",
+    "categoria": "algebra",
+    "nivel": "fundamental",
+    "iframeSrc": "https://www.geogebra.org/material/iframe/id/drFAJzXh/width/900/height/600/border/888888/smb/false/stb/false/stbh/false/ai/true/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false",
+    "thumbnailUrl": null,
+    "autorOriginal": "Luis Claudio LA",
+    "urlOriginal": "https://www.geogebra.org/m/drFAJzXh",
+    "licenca": "CC BY-SA",
+    "destaque": false,
+    "tags": [
+      "frações",
+      "multiplicação",
+      "álgebra",
+      "visualização",
+      "aritmética"
+    ]
   }
 ]
